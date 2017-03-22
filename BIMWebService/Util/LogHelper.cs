@@ -15,6 +15,7 @@ namespace BIMWebService.Util
                 Loginfo.Info(info);
             }
         }
+
         public static void WriteLog(string info, Exception se)
         {
             if (Logerror.IsErrorEnabled)
